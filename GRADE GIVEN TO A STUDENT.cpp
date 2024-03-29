@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	int marks;
+	printf("enter marks");
+	scanf("%d",&marks);
+	if(marks<30)
+	{
+	printf("c");
+}
+		else if(30<=marks && marks<70)
+		{
+		printf("b");	
+		}
+		else if(70<=marks && marks<90)
+		{
+			printf("a");
+		}
+		else if (90<=marks && marks<=100)
+		{
+			printf("a+");
+		}
+		else
+		{
+			printf("wrong marks");
+		}
+		return 0;
+	}
